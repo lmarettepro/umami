@@ -3,3 +3,9 @@ included_files = ["node_modules/.geo/**"]
 
 [[plugins]]
 package = "@netlify/plugin-nextjs"
+
+[[redirects]]
+  from = "/getinfo.js"
+  to = "/script.js"
+  status = 200
+  force = true
